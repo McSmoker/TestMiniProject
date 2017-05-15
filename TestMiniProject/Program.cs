@@ -10,6 +10,7 @@ namespace TestMiniProject
     class Program
     {
         public static Boek Boek = new Boek(0, "George Orwell", "1984");
+        public static Boek Boek2 = new Boek(1, "Mario Puzo", "The Godfather");
         public static Klant Klant = new Klant("Anne", "Vries", 0, "poep@poep.nl");
         public static Reservering Reservering = new Reservering(Klant, Boek, 0);
         static void Main(string[] args)
